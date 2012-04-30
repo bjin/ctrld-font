@@ -17,7 +17,7 @@ fonts.scale: ${PCFS}
 	mkfontscale
 
 clean:
-	rm -rf *.pcf fonts.dir fonts.scale
+	rm -rf *.bak *.pcf fonts.dir fonts.scale
 
 .SUFFIXES: .bdf .pcf
 
