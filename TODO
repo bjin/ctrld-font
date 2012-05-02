@@ -1,0 +1,29 @@
+U+03BB λ
+U+03C0 π
+
+U+2713 ✓
+U+2717 ✗
+
+U+2208 ∈
+U+2209 ∉
+U+2211 ∑
+U+221A √
+U+2227 ∧
+U+2228 ∨
+U+2260 ≠
+U+2261 ≡
+U+2264 ≤
+U+2265 ≥
+
+more Geometric shapes (U+25A0 -> U+25FF)
+
+http://www.haskell.org/ghc/docs/latest/html/users_guide/syntax-extns.html#unicode-syntax
+
+U+E000 - U+F000 is private area, add some fancy symbols:
+
+* Tall, Mirror Tall and Full mode of xmonad
+* status of battery, sound volume, wifi signal
+* logo of some software, websites
+* use two custom symbols to represent double width characters
+
+Use U+EE as prefix
