@@ -1,6 +1,3 @@
-U+2713 ✓
-U+2717 ✗
-
 U+2208 ∈
 U+2209 ∉
 U+2211 ∑
@@ -18,7 +15,6 @@ http://www.haskell.org/ghc/docs/latest/html/users_guide/syntax-extns.html#unicod
 
 U+E000 - U+F000 is private area, add some fancy symbols:
 
-* Tall, Mirror Tall and Full mode of xmonad
 * status of battery, sound volume, wifi signal
 * logo of some software, websites
 * use two custom symbols to represent double width characters
