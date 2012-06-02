@@ -8,3 +8,9 @@ U+EE10 layout-tall-white
 U+EE11 layout-mtall-white
 U+EE12 layout-full-white
 U+EE13 layout-grid-white
+
+(16pt only)
+U+EE20 vol-mute
+U+EE21 vol-1-3
+U+EE22 vol-2-3
+U+EE23 vol-3-3
