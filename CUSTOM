@@ -16,6 +16,16 @@ U+EE22 vol-2-3
 U+EE23 vol-3-3
 
 (16pt only)
+U+EE30 music-stopped
+U+EE31 music-play
+U+EE32 music-paused
+U+EE33 music-next
+U+EE34 music-forward
+U+EE35 music-prev
+U+EE36 music-backward
+U+EE37 music-record
+
+(16pt only)
 U+EEF0 load
 U+EEF1 cpu
 U+EEF2 mem
