@@ -1,3 +1,4 @@
+All custom glyph are regular only
 
 U+EE00 layout-tall
 U+EE01 layout-mtall
@@ -24,6 +25,12 @@ U+EE34 music-forward
 U+EE35 music-prev
 U+EE36 music-backward
 U+EE37 music-record
+
+(16pt only)
+U+EE40 bat-0-3
+U+EE41 bat-1-3
+U+EE42 bat-2-3
+U+EE43 bat-full
 
 (16pt only)
 U+EEF0 load
