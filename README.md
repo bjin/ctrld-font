@@ -28,6 +28,7 @@ Non-ASCII characters
 | ✗ | U+2717 |
 | ❮ | U+276E |
 | ❯ | U+276F |
+| ⟳ | U+27F3 |
 
 
 Custom glyph
