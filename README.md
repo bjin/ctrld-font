@@ -4,8 +4,6 @@ A fixed-width bitmap font forked from Dina(13pt, 16pt) and Proggy Tiny (10pt).
 Non-ASCII characters
 ====================
 
-Available in all styles.
-
 | | Hex |
 | :-: | :-: |
 | λ | U+03BB |
@@ -32,7 +30,10 @@ Available in all styles.
 | ❯ | U+276F |
 
 
-The following are from [Powerline symbols](https://github.com/powerline/fonts) and (the [first 12](https://github.com/ryanoasis/powerline-extra-symbols#glyphs) of) [Powerline extra symbols](https://github.com/ryanoasis/powerline-extra-symbols).
+Custom glyph
+============
+
+[The first 12 of Powerline extra symbols](https://github.com/ryanoasis/powerline-extra-symbols#glyphs), including all [Powerline symbols](https://github.com/powerline/fonts).
 
 | | Hex |
 | :-: | :-: |
@@ -49,10 +50,7 @@ The following are from [Powerline symbols](https://github.com/powerline/fonts) a
 |  | U+E0B6 |
 |  | U+E0B7 |
 
-Custom Characters
-=================
-
-Only available in regular style.
+The following are only available in regular style.
 
 | | Hex | Name | |
 | :-: | :-: | :- | :- |
@@ -65,7 +63,7 @@ Only available in regular style.
 |  | U+EE12  | layout-full-white
 |  | U+EE13  | layout-grid-white
 
-The following are only available in 16pt font.
+The following are only available in 16pt regular font.
 
 | | Hex | Name | |
 | :-: | :-: | :- | :- |
