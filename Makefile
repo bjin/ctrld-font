@@ -4,8 +4,9 @@ BDFS += ctrld-fixed-13r.bdf ctrld-fixed-13b.bdf ctrld-fixed-13r-i.bdf ctrld-fixe
 BDFS += ctrld-fixed-10r.bdf ctrld-fixed-10b.bdf
 
 PCFS := ${BDFS:.bdf=.pcf}
+OTBS := ${BDFS:.bdf=.otb}
 
-all: fonts.dir fonts.scale ${PCFS}
+all: fonts.dir fonts.scale ${PCFS} ${OTBS}
 	xset fp default
 	xset +fp `pwd`
 	xset fp rehash
@@ -17,12 +18,15 @@ fonts.scale: ${PCFS}
 	mkfontscale
 
 clean:
-	rm -rf *.bak *-2x.bdf *.pcf fonts.dir fonts.scale
+	rm -rf *.bak *-2x.bdf *.pcf *.otb fonts.dir fonts.scale
 
 2x:
 	for i in ${BDFS}; do bdfresize -f 2 "$$i" > $$(basename $$i .bdf)-2x.bdf; done
 
-.SUFFIXES: .bdf .pcf
+.SUFFIXES: .bdf .pcf .otb
 
 .bdf.pcf:
 	bdftopcf -o $@ $<
+
+.bdf.otb:
+	fonttosfnt -v -c -b -g 2 -m 1 -o $@ $<
